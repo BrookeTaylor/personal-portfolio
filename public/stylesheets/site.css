@@ -1,0 +1,232 @@
+/**
+    Title: Site styling. 
+    Arthur: Professor Krasso
+    Date: 01/29/23
+    Modified By: Brooks
+    Description: Just the beginning of the styling. 
+*/
+
+* {
+    font-family: Oswald, Verdana, Ariel, sans-serif;
+}
+
+#h1, h2 {
+    text-align: center;
+}
+
+
+
+body {
+    background-color: #eee;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+
+.card > div {
+    padding: 1em;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+article h2 {
+    text-align: center;
+}
+
+header, footer {
+    background-color: #6252f6;
+}
+
+
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+ .menu-item {
+    float: left;
+  }
+  
+  .menu-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+  }
+
+  .menu-item a:hover {
+    background-color: #a49bf7;
+  }
+
+
+
+
+
+
+.projects {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+
+
+.projects a {
+  text-decoration: none;
+  margin: 1em;
+}
+
+
+
+
+.split {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.split > div {
+  margin: 1em;
+}
+
+h3 {
+  text-align: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 640px) {
+    article {
+      width: 100%;
+      margin-top: 2em;
+  }
+
+  section {
+    width: 100%;
+    margin-left: 30%;
+  }
+
+  .breakup {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+
+  }
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  @media only screen and (min-width: 641px) {
+     article {
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 2em;
+  }
+  section {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .breakup {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.breakup > div {
+    padding: 1em;
+}
+
+
+
+  }
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  @media only screen and (min-width: 1008px) {
+    article {
+        width: 80%;
+  }
+
+  section {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .breakup {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.breakup > div {
+    padding: 1em;
+}
+
+
+
+  }
+
+
+
+
+
+
+
+
+footer {
+
+    bottom: 1em;
+    width:100%;
+}
