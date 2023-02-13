@@ -10,7 +10,7 @@
     font-family: Oswald, Verdana, Ariel, sans-serif;
 }
 
-#h1, h2 {
+#h1, h2, h3 {
     text-align: center;
 }
 
@@ -29,62 +29,67 @@ body {
 }
 
 .card > div {
-    padding: 1em;
+    margin: 1em;
 }
 
-.card-title {
-  font-weight: 600;
-}
-
-article h2 {
-    text-align: center;
-}
 
 header, footer {
     background-color: #6252f6;
-}
-
-
-
-.nav-menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
- .menu-item {
-    float: left;
-  }
-  
-  .menu-item a {
-    display: block;
-    color: white;
     text-align: center;
-    text-decoration: none;
-    padding: 14px 16px;
-  }
-
-  .menu-item a:hover {
-    background-color: #a49bf7;
-  }
-
-
-
-
-
-
-.projects {
-  display: grid;
-  grid-template-columns: auto auto auto;
 }
 
 
+.containerPadding {
+  padding: 1em;
+}
 
-.projects a {
+header a {
   text-decoration: none;
-  margin: 1em;
+  color: white;
 }
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+
+.menu-item {
+  list-style-type: none;
+}
+
+.menu-item :hover {
+  color: #a49bf7;
+  text-shadow: 2px 2px #4e4a75;
+}
+
+
+/*
+.menu-item {
+  float: left;
+}
+*/
+.menu-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+
+
+
+
+
 
 
 
@@ -97,9 +102,7 @@ header, footer {
   margin: 1em;
 }
 
-h3 {
-  text-align: center;
-}
+
 
 
 
