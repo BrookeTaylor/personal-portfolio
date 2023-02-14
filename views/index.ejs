@@ -2,88 +2,80 @@
 
 <body>
 
-    <header><%- include("../views/_header")%></header>
+<header><%- include("../views/_header")%></header>
+
+<h1><%= title %></h1>
 
     <main>
 
-
-<h1 id="h1">Brooke's Personal Portfolio</h1>
-
-<article>
-
 <div class="card">
 
-<div>
+    <article id="indexPg">
 
-    <div class="row">
-<div class="col-6">
-    <!--           width="350" height="auto"          -->
-    <img src="/images/bt.jpg">
-</div>
+        <div class="containerPadding">
 
-<div class="col-6">
+            <p>I'm going to school to learn Web Development from Bellevue University!</p>
 
-    <p>I'm going to school to learn Web Development from Bellevue University!</p>
-
-    <h3>Bucket List</h3>
-
-    <ol>
-        <li>Finish school, again</li>
-        <li>then continue learning</li>
-        <li>hybird workplace environment</li>
-        <li>travel new places</li>
-        <li>Meet new people</li>
-        <li>own a house</li>
-        <li>land and roll away from a kickflip underflip</li>
-        <li>Unlock all trophies on TES V: Skyrim</li>
+            <h3>Bucket List</h3>
         
-    </ol>
+            <ol>
+                <li>Finish school, again</li>
+                <li>then continue learning</li>
+                <li>hybird workplace environment</li>
+                <li>travel new places</li>
+                <li>Meet new people</li>
+                <li>own a house</li>
+                <li>land and roll away from a kickflip underflip</li>
+                <li>Unlock all trophies on TES V: Skyrim</li>            
+            </ol>
+
+        </div>
+
+        <div class="containerPadding">
+
+<img src="/images/bt.jpg">
+
+        </div>
+
+    </article>
 
 </div>
-
-</div><!-- .row -->
-
-
-</div>
-
-</div>
-
-</article>
 
     </main>
 
     <footer>
 
-<div class="row">
+        <div class="row">
 
-    <div class="col-3">
-
-        <li class="menu-item"><a href="https://github.com/BrookeTaylor?tab=repositories" target="_blank">Brooke GitHub</a></li>
-
-    </div>
-
-    <div class="col-3">
-
-        <li class="menu-item"><a href="https://www.bellevue.edu/degrees/bachelor/web-development-bs/" target="_blank">Bellevue University Web Development Degree</a></li>
+            <div class="col-3">
         
-    </div>
+                <li class="menu-item"><a href="https://github.com/BrookeTaylor?tab=repositories" target="_blank">Brooke GitHub</a></li>
+        
+            </div>
+        
+            <div class="col-3">
+        
+                <li class="menu-item"><a href="https://www.bellevue.edu/degrees/bachelor/web-development-bs/" target="_blank">Bellevue University Web Development Degree</a></li>
+                
+            </div>
+        
+            <div class="col-3">
+        
+                <li class="menu-item"><a href="https://www.youtube.com/@bellevueuniversity" target="_blank">Bellevue University Wev Development Youtube Channel</a></li>
+            
+            </div>
+        
+            <div class="col-3">
+        
+                <li class="menu-item"><a href="https://github.com/buwebdev" target="_blank">Bellevue University Web Development GitHub</a></li>
+            
+            </div>
+        
+        
+        </div>
 
-    <div class="col-3">
+        <%- include("../views/_footer")%>
 
-        <li class="menu-item"><a href="https://www.youtube.com/@bellevueuniversity" target="_blank">Bellevue University Wev Development Youtube Channel</a></li>
-    </div>
-
-    <div class="col-3">
-
-        <li class="menu-item"><a href="https://github.com/buwebdev" target="_blank">Bellevue University Web Development GitHub</a></li>
-    </div>
-
-
-</div>
-
-
-
-        <br><%- include("../views/_footer")%>
     </footer>
 
 </body>

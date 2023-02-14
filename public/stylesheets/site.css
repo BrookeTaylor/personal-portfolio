@@ -6,36 +6,36 @@
     Description: Just the beginning of the styling. 
 */
 
+
+
+/** 
+      ************ ALL ************** 
+*/
+
 * {
     font-family: Oswald, Verdana, Ariel, sans-serif;
 }
 
-#h1, h2, h3 {
+
+h1, h2, h3 {
     text-align: center;
 }
-
 
 
 body {
     background-color: #eee;
     min-height: 100vh;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .card {
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 25px;
-}
-
-.card > div {
-    margin: 1em;
-}
-
-
-header, footer {
-    background-color: #6252f6;
-    text-align: center;
+    margin-bottom: 1em;
 }
 
 
@@ -43,24 +43,24 @@ header, footer {
   padding: 1em;
 }
 
+
+
+
+
+
+
+/** 
+      ************ HEADER ************** 
+*/
+
+.header {
+  background-color: #6252f6;
+}
+
 header a {
   text-decoration: none;
   color: white;
 }
-
-footer a {
-  text-decoration: none;
-  color: white;
-}
-
-
-
-img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-
 
 .menu-item {
   list-style-type: none;
@@ -71,18 +71,12 @@ img {
   text-shadow: 2px 2px #4e4a75;
 }
 
-
-/*
-.menu-item {
-  float: left;
-}
-*/
 .menu-item a {
   display: block;
   color: white;
   text-align: center;
   text-decoration: none;
-  padding: 14px 16px;
+  padding: 1em;
 }
 
 
@@ -91,145 +85,18 @@ img {
 
 
 
-
-
-
-.split {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-.split > div {
-  margin: 1em;
-}
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 640px) {
-    article {
-      width: 100%;
-      margin-top: 2em;
-  }
-
-  section {
-    width: 100%;
-    margin-left: 30%;
-  }
-
-  .breakup {
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-}
-
-
-  }
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-  @media only screen and (min-width: 641px) {
-     article {
-      width: 80%;
-      margin-left: 10%;
-      margin-right: 10%;
-      margin-top: 2em;
-  }
-  section {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 2em;
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-
-  .breakup {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 2em;
-    display: grid;
-    grid-template-columns: auto auto;
-}
-.breakup > div {
-    padding: 1em;
-}
-
-
-
-  }
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
- 
-  @media only screen and (min-width: 1008px) {
-    article {
-        width: 80%;
-  }
-
-  section {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 2em;
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-
-  .breakup {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 2em;
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.breakup > div {
-    padding: 1em;
-}
-
-
-
-  }
-
-
-
-
-
-
-
+/** 
+      ************ FOOTER ************** 
+*/
 
 footer {
+    background-color: #6252f6;
+    text-align: center;
+    margin-top: 3em;
+    color: white;
+}
 
-    bottom: 1em;
-    width:100%;
+footer a {
+  text-decoration: none;
+  color: white;
 }

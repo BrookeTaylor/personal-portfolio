@@ -21,16 +21,16 @@ app.get("", (req, res) => {
 
 
 app.get("/about", (req, res) => {
-    res.render("about", { title: "All About Brooke Page"});
+    res.render("about", { title: "A little bit about me..."});
 });
 
 
 app.get("/resume", (req, res) => {
-    res.render("resume", { title: "Brooke Taylor Resume"});
+    res.render("resume", { title: "Brooke Taylor Personal Portfolio"});
 });
 
 app.get("/projects", (req, res) => {
-    res.render("projects", { title: "Current Projects"});
+    res.render("projects", { title: "Projects"});
 });
 
 app.get("/databaseDiagrams", (req, res) => {
@@ -41,9 +41,6 @@ app.get("/APIunit", (req, res) => {
     res.render("APIunit", { title: "APIunit"});
 });
 
-app.get("/bucketList", (req, res) => {
-    res.render("bucketList", { title: "bucketList"});
-});
 
 
 

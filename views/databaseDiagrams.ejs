@@ -2,58 +2,67 @@
 
 <body>
 
-    <header><%- include("../views/_header")%></header>
+<header><%- include("../views/_header")%></header>
+
+<h1><%= title %></h1>
 
     <main>
 
+        <section>
 
-<h1 id="h1">Brooke's Personal Portfolio</h1>
+<div class="containerPadding">
 
+    <div class="row"><!-- first row -->
 
-<div style="margin: 1em;">
-<div class="row">
+        <div class="col-4">
 
-<div class="col-4">
-    <a href="#" target="_blank">   
-        <div>
-            <div class="card-container">
-                <div class="card">
-                    <div class="card-title">Neque porro</div>
-                    <div class="card-content">Pellentesque molestie erat nec erat convallis, vel consequat enim molestie.</div>
+            <a href="#"><div class="card">
+                
+                <div class="containerPadding">
+            
+                    <h3>Neque porro</h3>
+            
+                    <p>Pellentesque molestie erat</p>
+            
                 </div>
-            </div>
-        </div>
-        </a> 
-</div>
+            
+            </div></a>
 
-<div class="col-4">
-    <a href="#" target="_blank">
-        <div>
-            <div class="card-container">
-                <div class="card">
-                    <div class="card-title">Ut malesuada</div>
-                    <div class="card-content">Quisque vel ornare metus. Ut eu enim a urna semper sodales nec at nulla.</div>
+        </div>
+
+        <div class="col-4">
+
+            <a href="#"><div class="card">
+                
+                <div class="containerPadding">
+            
+                    <h3>Nerat convallis</h3>
+            
+                    <p>Evel consequat enim molestie</p>
+            
                 </div>
-            </div>
-        </div>
-        </a>
-</div>
+            
+            </div></a>
 
-<div class="col-4">
-    <a href="#" target="_blank">
-        <div>
-            <div class="card-container">
-                <div class="card">
-                    <div class="card-title">Fusce placerat</div>
-                    <div class="card-content">Cras efficitur enim eu ultricies molestie.</div>
+        </div>
+
+        <div class="col-4">
+
+            <a href="#"><div class="card">
+                
+                <div class="containerPadding">
+            
+                    <h3>Ut malesuada</h3>
+            
+                    <p>Quisque vel ornare metus</p>
+            
                 </div>
-            </div>
+            
+            </div></a>
+
         </div>
-        </a>
-</div>
-
-</div>
-</div>
+    
+    </div><!-- .row 1st -->
 
 
 
@@ -61,9 +70,14 @@
 
 
 
-    </main>
 
-    <footer><%- include("../views/_footer")%></footer>
+
+</div><!-- .containerPadding wrap -->
+</section>
+
+</main>
+
+<footer><%- include("../views/_footer")%></footer>
 
 </body>
 </html>
