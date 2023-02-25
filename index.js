@@ -11,11 +11,13 @@ app.use("/images", express.static(__dirname + "public/images"));
 
 
 // Set Views
-app.set("views", "./views");
 app.set("view engine", "ejs");
 
 
-app.get("", (req, res) => {
+app.get("/", (req, res) => {
+
+    // res.sendFile(__dirname + "/views/index.html");
+
     res.render("index", { title: "Brooke Taylor Personal Portfolio"});
 })
 
