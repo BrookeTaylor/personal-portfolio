@@ -10,7 +10,8 @@
 /* **********  FOOTER ********** */
 footer {
     background-color: #673ab7;
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     margin-top: 3em;
     color: #b7a63a;
 }
