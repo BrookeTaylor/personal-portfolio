@@ -113,6 +113,10 @@ h1, h2, h3 {
     display: grid;
 }
 
+video {
+    max-width: 100%;
+}
+
 
 /* ********** SMALL SCREEN < 641 ********** */ 
 @media only screen and (max-width: 640px) {
