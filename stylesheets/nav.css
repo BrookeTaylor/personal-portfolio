@@ -20,9 +20,21 @@ nav li:hover {
     border-radius: 25px;
 }
 
+.dropdown-menu {
+    background-color: #673ab7;
+}
+
+.dropdown-item:hover {
+    background-color: #5a33a0;
+}
+
 nav .navbar-nav li a {
     color: white !important;
     font-weight: 600;
+}
+
+span {
+    color:#b7a63a;
 }
 
 .navbar-toggler {
@@ -62,6 +74,11 @@ nav .navbar-nav li a {
 
 .middle-bar {
     margin-top: 0px;
+}
+
+
+.nav-item {
+    text-align: center;
 }
 
 /* when navigation is clicked */
