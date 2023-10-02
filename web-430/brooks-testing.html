@@ -1,6 +1,6 @@
 <!-- 
-    Title: brooks-testing
-    Arthur: Brooke Taylor
+    Title: Brooke Taylor Personal Portfolio
+    Author: Brooke Taylor
     Date: 06/11/2023
     Description: DevOps Presentations.
 -->
@@ -11,12 +11,12 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Brooke Taylor Personal Portfolio</title>
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  
+
     <!-- Site specific styles -->
     <link rel="stylesheet" href="../stylesheets/styles.css">
     <link rel="stylesheet" href="../stylesheets/nav.css">
@@ -31,194 +31,228 @@
 </head>
 
 <body>
-<div class="container-fluid">
 
+<div class="container-fluid">
 
 <header>
 
 
-<nav class="navbar navbar-expand-md">
-<div class="container-fluid">
+<nav class="navbar navbar-expand-md hide-on-print">
 
-    <a class="navbar-brand" href="../index.html"><h1>Brooke Taylor</h1></a>
-
-
-    <button class="navbar-toggler collapsed d-flex d-md-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    
-    <span class="toggler-icon top-bar"></span>
-    <span class="toggler-icon middle-bar"></span>
-    <span class="toggler-icon bottom-bar"></span>
-
-    </button>
+    <div class="container-fluid">
 
 
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
+        <a class="navbar-brand" href="../index.html"><h1>Brooke Taylor</h1></a>
 
-        <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-        </li>
 
-        <li class="nav-item">
-        <a class="nav-link" href="../about.html">About</a>
-        </li>
+        <button class="navbar-toggler collapsed d-flex d-md-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+        </button>
 
-        <li class="nav-item">
-        <a class="nav-link" href="../resume.html">Resume</a>
-        </li>
 
-        <li class="nav-item">
-        <a class="nav-link" href="../projects.html">Projects</a>
-        </li>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-        <li class="nav-item">
-        <a class="nav-link" href="../dbDiagrams.html">Database Diagrams</a>
-        </li>
+            <ul class="navbar-nav">
 
-        <li class="nav-item">
-        <a class="nav-link" href="../apiUnitTests.html">API Unit Tests</a>
-        </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">
+                        Home
+                    </a>
+                </li>
 
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <span>DevOps</span>
-        </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="../about.html">
+                        About
+                    </a>
+                </li>
 
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="brooks-tech-value-stream.html">The Technology Value Stream</a></li>
-            <li><a class="dropdown-item" href="brooks-two-pizza-rule.html">The Two Pizza Rule</a></li>
-            <li><a class="dropdown-item" href="brooks-testing.html">Testing</a></li>
-            <li><a class="dropdown-item" href="brooks-continuousIntegration.html">Continuous Integration</a></li>
-            <li><a class="dropdown-item" href="brooks-pagerRotationDuties.html">Pager Rotation Duties</a></li>
-            <li><a class="dropdown-item" href="dangersOfChangeApprovalProcesses.html">Dangers of Change Approval Processes</a></li>
-            <li><a class="dropdown-item" href="technologyVsBusiness.html">Technology Vs Business Driven Decisions</a></li>
-            <li><a class="dropdown-item" href="securityControlsInSharedSourceCodeRepositories.html">Security Controls In Shared Source Code Repositories</a></li>
-            <li><a class="dropdown-item" href="changeManagement.html">Change Management</a></li>
-        </ul>
-        </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../resume.html">
+                        Resume
+                    </a>
+                </li>
 
-    </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="../projects.html">
+                        Projects
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../dbDiagrams.html">
+                        Database Diagrams
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../apiUnitTests.html">
+                        API Unit Tests
+                    </a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span>DevOps</span>
+                    </a>
+
+                    <ul class="dropdown-menu">
+
+                        <li>
+                            <a class="dropdown-item" href="brooks-tech-value-stream.html">
+                                The Technology Value Stream
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="brooks-two-pizza-rule.html">
+                                The Two Pizza Rule
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="brooks-testing.html">
+                                Testing
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="brooks-continuousIntegration.html">
+                                Continuous Integration
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="brooks-pagerRotationDuties.html">
+                                Pager Rotation Duties
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="dangersOfChangeApprovalProcesses.html">
+                                Dangers of Change Approval Processes
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="technologyVsBusiness.html">
+                                Technology Vs Business Driven Decisions
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="securityControlsInSharedSourceCodeRepositories.html">
+                                Security Controls In Shared Source Code Repositories
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="changeManagement.html">
+                                Change Management
+                            </a>
+                        </li>
+                    
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div>
+
     </div>
 
-
-
-
-
-
-</div>
 </nav>
-
 
 </header>
 
-
-
 <main>
-
-
-
 
 <div class="m-5">
 
+    <div class="card">
 
-<div class="card">
-
-<!-- 
-    Title: web-430 DevOps - The Technology Value Stream 
-    Arthur: Professor Krasso
-    Date: 05/28/23
-    Modified By: Brooks
-    Description: 
--->     
-    <h3 class="m-3">web-430 DevOps - Testing</h3>
+        <!-- 
+            Title: web-430 DevOps - Testing
+            Author: Professor Krasso
+            Date: 05/28/23
+            Modified By: Brooke Taylor
+            Description: Testing
+        -->     
+        <h3 class="m-3">web-430 DevOps - Testing</h3>
 
 
-    <video controls="" autoplay="" reload="none" class="m-3">
-    
-        <source src="../devops-presentations/testing.mp4" type="video/mp4" />
-    
-    </video>
-   
+        <video controls="" autoplay="" reload="none" class="m-3">
+        
+            <source src="../devops-presentations/testing.mp4" type="video/mp4" />
+        
+        </video>
+           
+    </div>
+
 </div>
-
-
-
-
-
-
-
-
-
-
-
-</div><!-- .grid-container -->
-
 
 </main>
 
+<footer class="hide-on-print">
 
+    <div class="row">
 
-<footer>
+        <div class="col-lg-4 col-md-4 col-sm-8">
 
-<div class="footContainer">
-
-    <div class="col">
-
-        <ul>
-            <li><b>Bellevue University</b></li>
-            <li><a href="https://www.bellevue.edu/degrees/bachelor/web-development-bs/" target="_blank">BS Web Development</a></li>
-            <li><a href="https://github.com/buwebdev" target="_blank">GitHub</a></li>
-            <li><a href="https://www.youtube.com/@bellevueuniversity" target="_blank">Youtube Channel</a></li>
-        </ul>
-
-    </div>
-
-    <div class="col">
-            
-        <ul>
+            <ul>
             <li><b>Brooke Taylor</b></li>
             <li><a href="https://github.com/BrookeTaylor" target="_blank">GitHub</a></li>
             <li><a href="https://github.com/BrookeTaylor?tab=repositories" target="_blank">GitHub Repositories</a></li>
-        </ul>
-    
-    </div>
+            </ul>
 
-    <div class="col">
-    
-        <ul>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-8">
+
+            <ul>
             <li><b>Contact Me:</b></li>
             <li><a href="mailto: anonyoumiss@gmail.com" class="fas fa-envelope"> Email me at:<br>anonyoumiss@gmail.com</a></li>
-        </ul>
+            </ul>
 
-    
+
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-8">
+
+            <ul class="social">
+
+                <li>
+                    <b>Connect via Social Media</b>
+                </li><br>
+                
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100026208545629" class="fa fa-facebook-official" target="_blank"></a>
+                </li>
+                
+                <li>
+                    <a href="https://www.instagram.com/anonyoumiss/" class="fa fa-instagram" target="_blank"></a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/brooke-taylor-a98990273/" class="fa fa-linkedin" target="_blank"></a>
+                </li>
+
+            </ul>
+
+        </div>
+
     </div>
 
-    <div class="col">
-    
-        <ul class="social">
-            <li><b>Connect via Social Media</b></li><br>
-            <li><a href="https://www.facebook.com/profile.php?id=100026208545629" class="fa fa-facebook-official" target="_blank"></a></li>
-            <li><a href="https://www.instagram.com/anonyoumiss/" class="fa fa-instagram" target="_blank"></a></li>
-            <li><a href="https://www.linkedin.com/in/brooke-taylor-a98990273/" class="fa fa-linkedin" target="_blank"></a></li>
-        </ul>
-    
-    </div>
-
-</div>
-
-
-
-<p>BELLEVUE UNIVERSITY - WEB DEVELOPMENT COHORT</p>
 
 </footer>
 
 
 
-</div>
+</div><!-- container -->
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 
 </body>
 </html>
-

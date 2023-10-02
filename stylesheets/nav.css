@@ -1,6 +1,6 @@
 /**
     Title: Animated Custom Hamburger Icon. 
-    Arthur: A Designer Who Codes 
+    Author: A Designer Who Codes 
     Date: 05/08/23
     Modified By: Brooke Taylor
     Description: Using help from YouTube video to create a newer navbar 
@@ -35,10 +35,6 @@ nav .navbar-nav li a {
 
 .navbar-brand {
     margin-left: 1em;
-}
-
-span {
-    color:#b7a63a;
 }
 
 .navbar-toggler {
