@@ -1,0 +1,147 @@
+/**
+  Title: Brooke Taylor Portfolio
+  Author: Brooke Taylor
+  Date: 11/08/23
+  Description: BT Portfolio Styles.
+*/
+
+
+
+
+/** ***** TYPOGRAPHY ***** */
+* {
+  font-family: Oswald, Verdana, Arial, sans-serif;
+}
+/** ***** TYPOGRAPHY ***** */
+
+
+
+
+/** ***** COLOR SETUP ***** */
+$black: #333; // USED 
+$darkerPurple: #370570; // USED ON NAV BUTTONS :HOVER 
+$darkPurple: #965ED6; // USED ON LINKS (A:VISITED)
+$lightPurple: #673ab7;  // USED ON NAV/FOOTER
+$lighterPurple: #c6b5e4;
+$white: #eee;  // USED 
+$gold: #b7a63a; // USED ON BRANDING
+
+
+:root {
+  --background-light: #{$white};
+  --text-light: #{$black};
+  --background-dark: #{$black};
+  --text-dark: #{$white};
+}
+
+/** ***** COLOR SETUP ***** */
+
+
+
+
+
+
+
+
+
+
+/** ***** LIGHT MODE / DARK MODE TOGGLER *****  */
+#toggleMode {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: xx-large;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.toggle-message {
+  font-weight: 600;
+}
+/** ***** LIGHT MODE / DARK MODE TOGGLER *****  */
+
+
+
+
+
+
+
+
+
+
+
+
+/** ***** DARK MODE STYLES ***** */ 
+.dark-mode {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+
+  p a:visited {
+    color: $darkPurple;
+  }
+
+  .grid-container a:visited {
+    color: $darkPurple;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 $lightPurple;
+    background-color: $black;
+    color: $white;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 $lightPurple;
+  }
+
+  .resume {
+    border: 1px solid $lightPurple;
+    background-color: $black;
+    box-shadow: 0 4px 8px 0 $lightPurple;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
+  }
+
+  .resume:hover {
+    box-shadow: 0 8px 16px 0 $lightPurple;
+  }
+}
+/** ***** DARK MODE STYLES *****  */
+
+
+
+
+/** ***** LIGHT MODE STYLES ***** */
+.light-mode {
+  background-color: var(--background-light);
+  color: var(--text-light);
+
+  p a:visited {
+    color: $darkPurple;
+  }
+  .grid-container a:visited {
+    color: $darkPurple;
+  }
+
+  .resume {
+    border: 1px solid $black;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+
+  .resume:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  }
+
+}
+/** ***** LIGHT MODE STYLES *****  */
+
+
+
+
+

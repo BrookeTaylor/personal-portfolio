@@ -1,0 +1,156 @@
+/**
+  Title: Brooke Taylor Portfolio
+  Author: Brooke Taylor
+  Date: 11/15/23
+  Description: BT Portfolio Styles.
+*/
+
+@import '../App.scss';
+
+
+
+
+/** ***** NAV BAR *****  */
+.navbar-brand {
+  color: $gold !important;
+  font-weight: 600;
+  font-size: xx-large !important;
+}
+
+.nav {
+  font-weight: 600;
+  background-color: $lightPurple;
+}
+
+#basic-nav-dropdown {
+  color: $gold !important;
+  text-align: center;
+}
+
+.nav-links {
+  color: $white !important;
+  box-sizing: border-box;
+  border: 2px outset transparent;
+  text-align: center;
+}
+
+#basic-nav-dropdown {
+  box-sizing: border-box;
+  border: 2px outset transparent;
+}
+
+.nav-links:hover {
+  outline: 2px outset $lightPurple;
+  border-radius: 25px;
+}
+
+#basic-nav-dropdown:hover {
+  outline: 2px outset $lightPurple;
+  border-radius: 25px;
+}
+
+.nav-links:active {
+  background-color: $darkerPurple;
+}
+
+#basic-nav-dropdown:active {
+  background-color: $darkerPurple;
+}
+
+
+/** ***** NAV BAR *****  */
+
+
+
+
+
+
+
+
+
+
+/** ***** HAMBURGER MENU *****  */
+.hamburger-icon {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+  width: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hamburger-bar {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hamburger-icon.is-expanded .top-bar {
+  transform: translateY(8px) rotate(135deg);
+}
+
+.hamburger-icon.is-expanded .middle-bar {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hamburger-icon.is-expanded .bottom-bar {
+  transform: translateY(-8px) rotate(-135deg);
+
+}
+
+.hamburger-icon .middle-bar {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+@media only screen and (min-width: 992px) {
+  .hamburger-icon {
+    display: none;
+  }
+}
+/** ***** HAMBURGER MENU *****  */
+
+
+
+
+
+
+
+
+
+/** ***** FOOTER *****  */
+.footer {
+  width: 100%;
+  background-color: $lightPurple;
+  padding: 1em;
+}
+
+.footer span {
+  color: $gold;
+  font-weight: 600;
+}
+
+.footer li {
+  list-style: none;
+//  text-align: left;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social li {
+  float: left;
+  padding-right: 2em;
+}
+
+/** ***** FOOTER *****  */
